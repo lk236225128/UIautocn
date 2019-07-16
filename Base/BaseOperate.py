@@ -1,20 +1,18 @@
-import re
-
-import allure
-import os
-import threading
-
-import appium.common.exceptions
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions
-
-__author__ = 'shikun'
 # -*- coding: utf-8 -*-
-from selenium.webdriver.support.ui import WebDriverWait
-import selenium.common.exceptions
-from Base.BaseElementEnmu import Element as be
+__author__ = 'kevin'
+
+import re
+import allure
 import time
 import os
+import appium.common.exceptions
+import selenium.common.exceptions
+
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions
+from selenium.webdriver.support.ui import WebDriverWait
+from Base.BaseElementEnmu import Element as be
+
 
 '''
 # 此脚本主要用于查找元素是否存在，操作页面元素
@@ -33,15 +31,15 @@ class OperateElement:
         find_type: find类型
         '''
         try:
-            if type(mOperate) == list:  # 多检查点
-                for item in mOperate:
-                    if item.get("is_webview", "0") == 1:  # 1表示切换到webview
-                        self.switchToWebview()
-                    elif item.get("is_webview", "0") == 2:
-                        self.switchToNative()
-                    t = item["check_time"] if item.get("check_time", "0") != "0" else be.WAIT_TIME
-                    WebDriverWait(self.driver, t).until(lambda x: self.elements_by(item))
-                return {"result": True}
+            # if type(mOperate) == list:  # 多检查点
+            #     for item in mOperate:
+            #         if item.get("is_webview", "0") == 1:  # 1表示切换到webview
+            #             self.switchToWebview()
+            #         elif item.get("is_webview", "0") == 2:
+            #             self.switchToNative()
+            #         t = item["check_time"] if item.get("check_time", "0") != "0" else be.WAIT_TIME
+            #         WebDriverWait(self.driver, t).until(lambda x: self.elements_by(item))
+            #     return {"result": True}
 
             if type(mOperate) == dict:  # 单检查点
                 if mOperate.get("is_webview", "0") == 1 and self.switchToWebview() is False:  # 1表示切换到webview

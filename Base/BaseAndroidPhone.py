@@ -1,6 +1,6 @@
-
 # -*- coding: utf-8 -*-
-__author__ = 'shikun'
+__author__ = 'kevin'
+
 import os
 import re
 import math

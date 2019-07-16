@@ -9,9 +9,10 @@ PATH = lambda p: os.path.abspath(
 
 
 class PagesObjects:
+
     '''
     page层
-    kwargs: WebDriver driver, String path(yaml配置参数)
+    kwargs: WebDriver driver, String yaml(yaml配置参数)
     isOperate: 操作失败，检查点就失败
     testInfo：
     testCase：
@@ -21,9 +22,9 @@ class PagesObjects:
         self.driver = kwargs["driver"]
         self.operateElement = OperateElement(self.driver)
         self.isOperate = True
-        self.test_msg = kwargs["test_msg"]
-        self.testInfo = self.test_msg[1]["testinfo"]
-        self.testCase = self.test_msg[1]["testcase"]
+        self.test_msg = kwargs["yaml"]
+        # self.testInfo = self.test_msg[1]["testinfo"]
+        # self.testCase = self.test_msg[1]["testcase"]
         # self.testcheck = self.test_msg[1]["check"]
         self.get_value = []
         self.is_get = False  # 检查点特殊标志，结合get_value使用。若为真，说明检查点要对比历史数据和实际数据
@@ -51,6 +52,3 @@ class PagesObjects:
                 self.is_get = True  # 对比数据
 
         return True
-
-    # def checkPoint(self, kwargs={}):
-    #     result = self.check(kwargs)

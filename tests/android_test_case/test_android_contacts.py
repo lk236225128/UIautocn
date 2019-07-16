@@ -18,7 +18,7 @@ class TestWebViewAndroid(object):
 
     @allure.story('登录Android')
     def test_add_contacts(self, getDriver):
-        app = {"driver": getDriver,"path": PATH("/Users/luokai/PycharmProjects/UIautocn/Yamls/Android/loginTest.yaml")}
+        app = {"driver": getDriver,"yaml": PATH("/Users/luokai/PycharmProjects/UIautocn/Yamls/Android/loginTest.yaml")}
         page = BasePage(app)
         page.operate()
 
