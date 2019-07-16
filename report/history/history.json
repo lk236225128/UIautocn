@@ -1,0 +1,60 @@
+{
+  "d4e6df5082b284465c98a2ea3b12fb1a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "627d1a6748cffb3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562125597087,
+        "stop" : 1562125601565,
+        "duration" : 4478
+      }
+    } ]
+  },
+  "a4addfc73a872e810a368dd6739346da" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8f4da5e50bcafd58",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '百度一下' in 'bcd码_百度搜索'",
+      "time" : {
+        "start" : 1562124266533,
+        "stop" : 1562124267252,
+        "duration" : 719
+      }
+    } ]
+  },
+  "bb3f89cd30617b1b81dc9875c880623e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "170a3035cde28e7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562125512194,
+        "stop" : 1562125517470,
+        "duration" : 5276
+      }
+    } ]
+  }
+}

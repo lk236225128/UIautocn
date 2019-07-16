@@ -1,0 +1,9 @@
+testinfo:
+    - id: test001
+      title: 8891中古车登录用例
+      info: 打开app
+testcase:
+    - element_info: com.addcn.car8891:id/close
+      find_type: id
+      operate_type: click
+      info: 关闭新手引导图

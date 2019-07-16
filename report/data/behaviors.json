@@ -1,0 +1,60 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "百度feature",
+    "children" : [ {
+      "name" : "判断是否有234",
+      "children" : [ {
+        "name" : "test_two",
+        "uid" : "8f4da5e50bcafd58",
+        "parentUid" : "6fed2057ce13d656612abae1cb1762c0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1562124266533,
+          "stop" : 1562124267252,
+          "duration" : 719
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6fed2057ce13d656612abae1cb1762c0"
+    } ],
+    "uid" : "3fdb9c22411d31bf190d07c864a52ab7"
+  }, {
+    "name" : "8891中古车",
+    "children" : [ {
+      "name" : "访问8891首页",
+      "children" : [ {
+        "name" : "test_one",
+        "uid" : "170a3035cde28e7b",
+        "parentUid" : "54910ac01a6856865eb91ab4369bcf75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562125512194,
+          "stop" : 1562125517470,
+          "duration" : 5276
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login",
+        "uid" : "627d1a6748cffb3a",
+        "parentUid" : "54910ac01a6856865eb91ab4369bcf75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562125597087,
+          "stop" : 1562125601565,
+          "duration" : 4478
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "54910ac01a6856865eb91ab4369bcf75"
+    } ],
+    "uid" : "70ed4f59de4a8a5ad0e39475526a5002"
+  } ]
+}

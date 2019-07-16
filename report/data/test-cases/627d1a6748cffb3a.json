@@ -1,0 +1,181 @@
+{
+  "uid" : "627d1a6748cffb3a",
+  "name" : "test_login",
+  "fullName" : "tests.test_case.test_pytest.TestClass#test_login",
+  "historyId" : "d4e6df5082b284465c98a2ea3b12fb1a",
+  "time" : {
+    "start" : 1562125597087,
+    "stop" : 1562125601565,
+    "duration" : 4478
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "getDriver",
+    "time" : {
+      "start" : 1562125590717,
+      "stop" : 1562125597082,
+      "duration" : 6365
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "单击",
+      "time" : {
+        "start" : 1562125597113,
+        "stop" : 1562125598072,
+        "duration" : 959
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "operate",
+        "value" : "{'element_info': 'login-status-panel', 'find_type': 'id', 'operate_type': 'click', 'info': '点击登录'}"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "发送文本",
+      "time" : {
+        "start" : 1562125598090,
+        "stop" : 1562125598715,
+        "duration" : 625
+      },
+      "status" : "broken",
+      "statusMessage" : "KeyError: 'defaultframe'\n",
+      "statusTrace" : "  File \"/Users/luokai/.virtualenvs/UIautocn/lib/python3.6/site-packages/allure_commons/_allure.py\", line 153, in impl\n    return func(*a, **kw)\n  File \"/Users/luokai/PycharmProjects/UIautocn/Base/WebBaseOperate.py\", line 138, in send_keys\n    if operate[\"defaultframe\"]:\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "operate",
+        "value" : "{'element_info': 'account', 'find_type': 'id', 'operate_type': 'send_keys', 'msg': '0940137003', 'info': '输入用户名0940137003'}"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "发送文本",
+      "time" : {
+        "start" : 1562125598730,
+        "stop" : 1562125599322,
+        "duration" : 592
+      },
+      "status" : "broken",
+      "statusMessage" : "KeyError: 'defaultframe'\n",
+      "statusTrace" : "  File \"/Users/luokai/.virtualenvs/UIautocn/lib/python3.6/site-packages/allure_commons/_allure.py\", line 153, in impl\n    return func(*a, **kw)\n  File \"/Users/luokai/PycharmProjects/UIautocn/Base/WebBaseOperate.py\", line 138, in send_keys\n    if operate[\"defaultframe\"]:\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "operate",
+        "value" : "{'element_info': 'password', 'find_type': 'id', 'operate_type': 'send_keys', 'msg': 'a123456', 'info': '输入密码a123456'}"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "单击",
+      "time" : {
+        "start" : 1562125599338,
+        "stop" : 1562125601507,
+        "duration" : 2169
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "operate",
+        "value" : "{'element_info': 'login-sb', 'find_type': 'class_name', 'operate_type': 'click', 'info': '点击登录按鈕'}"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "断言",
+      "time" : {
+        "start" : 1562125601507,
+        "stop" : 1562125601565,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "operate",
+        "value" : "{'operate_type': 'assert_result', 'assert_point': 'in_page', 'assert_value': '會員中心', 'info': '断言是否有會員中心在页面内'}"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "8891中古车"
+  }, {
+    "name" : "story",
+    "value" : "访问8891首页"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_pytest"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClass"
+  }, {
+    "name" : "host",
+    "value" : "luokaideMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "55689-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_case.test_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "627d1a6748cffb3a.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,141 @@
+{
+  "uid" : "94350198fb1d4ffd",
+  "name" : "test_one",
+  "fullName" : "tests.test_case.test_pytest.TestClass#test_one",
+  "historyId" : "bb3f89cd30617b1b81dc9875c880623e",
+  "time" : {
+    "start" : 1562124265621,
+    "stop" : 1562124266526,
+    "duration" : 905
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "getDriver",
+    "time" : {
+      "start" : 1562124262407,
+      "stop" : 1562124265618,
+      "duration" : 3211
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "发送文本",
+      "time" : {
+        "start" : 1562124265646,
+        "stop" : 1562124266417,
+        "duration" : 771
+      },
+      "status" : "broken",
+      "statusMessage" : "KeyError: 'defaultframe'\n",
+      "statusTrace" : "  File \"/Users/luokai/.virtualenvs/UIautocn/lib/python3.6/site-packages/allure_commons/_allure.py\", line 153, in impl\n    return func(*a, **kw)\n  File \"/Users/luokai/PycharmProjects/UIautocn/Base/WebBaseOperate.py\", line 142, in send_keys\n    if operate[\"defaultframe\"]:\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "operate",
+        "value" : "{'element_info': 'kw', 'find_type': 'id', 'operate_type': 'send_keys', 'msg': 'test1111', 'info': '输入test123123'}"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "单击",
+      "time" : {
+        "start" : 1562124266435,
+        "stop" : 1562124266516,
+        "duration" : 81
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "operate",
+        "value" : "{'element_info': 'su', 'find_type': 'id', 'operate_type': 'click', 'info': '点击百度按钮'}"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "断言",
+      "time" : {
+        "start" : 1562124266516,
+        "stop" : 1562124266525,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "operate",
+        "value" : "{'operate_type': 'assert_result', 'assert_point': 'in_title', 'assert_value': '百度', 'info': '断言是否有百度字样在标题'}"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "访问百度首页234"
+  }, {
+    "name" : "feature",
+    "value" : "百度feature"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_pytest"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClass"
+  }, {
+    "name" : "host",
+    "value" : "luokaideMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "55342-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_case.test_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "94350198fb1d4ffd.json",
+  "parameterValues" : [ ]
+}

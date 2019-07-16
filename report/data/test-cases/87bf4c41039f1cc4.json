@@ -1,0 +1,75 @@
+{
+  "uid" : "87bf4c41039f1cc4",
+  "name" : "test_two",
+  "fullName" : "tests.test_case.test_pytest.TestClass#test_two",
+  "historyId" : "a4addfc73a872e810a368dd6739346da",
+  "time" : {
+    "start" : 1562123863532,
+    "stop" : 1562123863813,
+    "duration" : 281
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "getDriver",
+    "time" : {
+      "start" : 1562123859334,
+      "stop" : 1562123862673,
+      "duration" : 3339
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "判断是否有234"
+  }, {
+    "name" : "feature",
+    "value" : "百度feature"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_pytest"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClass"
+  }, {
+    "name" : "host",
+    "value" : "luokaideMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "55033-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_case.test_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "87bf4c41039f1cc4.json",
+  "parameterValues" : [ ]
+}

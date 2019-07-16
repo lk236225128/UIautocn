@@ -1,0 +1,41 @@
+testinfo:
+    - id: test005
+      title: 刊登付款
+      info: 刊登付款
+testcase:
+#    - element_info: check-vip
+#      find_type: id
+#      operate_type: click
+#      info: 勾選PC版置頂
+#    - element_info: check-top
+#      find_type: id
+#      operate_type: click
+#      info: 勾選行動版置頂
+#    - element_info: check-exposure
+#      find_type: id
+#      operate_type: click
+#      info: 勾選搶先曝光
+#    - element_info: check-tag
+#      find_type: id
+#      operate_type: click
+#      info: 勾選醒目標籤
+#    - element_info: check-outstand
+#      find_type: id
+#      operate_type: click
+#      info: 勾選出色標題
+    - element_info: '#account-list > dd.al-s > input'
+      find_type: css
+      operate_type: click
+      info: 點擊確認付款
+    - element_info: member-point-sub-btn
+      find_type: id
+      operate_type: click
+      info: 點擊提交
+    - operate_type: assert_result
+      assert_point: in_page
+      assert_value: '會員中心'
+      info: 断言是否有會員中心在页面内
+    - element_info: home-link
+      find_type: id
+      operate_type: click
+      info: 點擊返回8891首頁

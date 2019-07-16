@@ -1,0 +1,362 @@
+testinfo:
+    - id: test005
+      title: 賣家訂單管理
+      info: 賣家訂單管理
+testcase:
+    - element_info: "#myaccount > li > dl > dt > a:nth-child(1)"
+      find_type: css
+      operate_type: click
+      info: 點擊會員中心
+    - element_info: next-re
+      find_type: id
+      operate_type: click
+      info: 點擊以后提醒
+    - element_info: "#memberhead > div.nmc-memberMenu.clearfix > a:nth-child(3)"
+      find_type: css
+      operate_type: click
+      info: 點擊儲值發票
+    - element_info: "#nmc-side-bar > div > ul > li:nth-child(1) > a"
+      find_type: css
+      operate_type: click
+      info: 點擊點數明細
+
+    - element_info: "#value-info > ul > li.ls-hd > span.ls-io > div > button"
+      find_type: css
+      operate_type: move_to_element
+      info: 移動至收支篩選
+    - element_info: "#value-info > ul > li.ls-hd > span.ls-io > div > dir > a:nth-child(3)"
+      find_type: css
+      operate_type: click
+      info: 篩選消費
+    - element_info: PageNextLink
+      find_type: id
+      operate_type: click
+      info: 點擊下一頁
+#    - element_info: "#nmc-side-bar > div > ul > li:nth-child(2) > a"
+#      find_type: css
+#      operate_type: click
+#      info: 點擊儲值點數
+    - element_info: "#nmc-side-bar > div > ul > li:nth-child(3) > a"
+      find_type: css
+      operate_type: click
+      info: 點擊發票管理
+    - element_info: needInvoice1
+      find_type: id
+      operate_type: click
+      info: 選擇二聯式
+    - element_info: needInvoice5
+      find_type: id
+      operate_type: click
+      info: 點擊二聯式手機載具
+    - element_info: carrierid
+      find_type: id
+      operate_type: send_keys
+      msg: ABCDEFGH
+      info: 輸入手機條碼
+    - element_info: carrierid1
+      find_type: id
+      operate_type: send_keys
+      msg: ABCDEFGH
+      info: 再次輸入條碼
+    - element_info: needInvoice4
+      find_type: id
+      operate_type: click
+      info: 點擊二聯對中寄送
+    - element_info: recp
+      find_type: id
+      operate_type: send_keys
+      msg: 自測試
+      info: 輸入買受人
+    - element_info: telephone
+      find_type: id
+      operate_type: send_keys
+      msg: 0940137002
+      info: 輸入手機號
+    - element_info: regionid
+      find_type: id
+      operate_type: select_by_index
+      index: 1
+      info: 選擇第一個市
+    - element_info: sectionid
+      find_type: id
+      operate_type: select_by_index
+      index: 1
+      info: 選擇第一個區
+    - element_info: address
+      find_type: id
+      operate_type: send_keys
+      msg: 測試村
+      info: 輸入第三級地址
+    - element_info: needInvoice3
+      find_type: id
+      operate_type: click
+      info: 點擊三聯式發票
+    - element_info: recp_to
+      find_type: id
+      operate_type: send_keys
+      msg: 發票抬頭內容
+      info: 輸入發票抬頭
+    - element_info: number
+      find_type: id
+      operate_type: send_keys
+      msg: abcd1234
+      info: 輸入統一編號
+    - element_info: telephone_to
+      find_type: id
+      operate_type: send_keys
+      msg: 0940137002
+      info: 輸入手機號
+    - element_info: regionid_to
+      find_type: id
+      operate_type: select_by_index
+      index: 1
+      info: 選擇第一個市
+    - element_info: sectionid_to
+      find_type: id
+      operate_type: select_by_index
+      index: 1
+      info: 選擇第一個區
+    - element_info: address_to
+      find_type: id
+      operate_type: send_keys
+      msg: 測試村
+      info: 輸入第三級內容
+    - element_info: needInvoice1
+      find_type: id
+      operate_type: click
+      info: 選擇二聯式發票
+    - element_info: completeBtn
+      find_type: id
+      operate_type: click
+      info: 點擊完成
+    - element_info: "#nmc-side-bar > div > ul > li:nth-child(4) > a"
+      find_type: css
+      operate_type: click
+      info: 點擊我的禮券
+    - element_info: "#main-list > div.tab-hd > a:nth-child(2)"
+      find_type: css
+      operate_type: click
+      info: 點擊已使用
+    - element_info: PageNextLink
+      find_type: id
+      operate_type: click
+      info: 點擊下一頁
+    - element_info: "#main-list > div.tab-hd > a:nth-child(3)"
+      find_type: css
+      operate_type: click
+      info: 點擊已過期
+    - element_info: "#nmc-side-bar > div > ul > li:nth-child(5) > a"
+      find_type: css
+      operate_type: click
+      info: 點擊我的積分
+    - element_info: PageNextLink
+      find_type: id
+      operate_type: click
+      info: 點擊下一頁
+    - element_info: "#main-list > div.tab-hd > a:nth-child(2)"
+      find_type: css
+      operate_type: click
+      info: 點擊積分規則
+    - element_info: "#main-list > div.tab-hd > a:nth-child(3)"
+      find_type: css
+      operate_type: click
+      info: 點擊點數兌換積分
+    - element_info: member_point
+      find_type: id
+      operate_type: send_keys
+      msg: 5
+      info: 輸入要兌換的積分數
+    - element_info: "#main-list > form > div > p:nth-child(3) > input"
+      find_type: css
+      operate_type: click
+      info: 點擊確認兌換
+    - element_info: "#account-list > dd.al-s > input"
+      find_type: css
+      operate_type: click
+      info: 點擊確認付款
+    - element_info: "#ps-btns > map > area:nth-child(2)"
+      find_type: css
+      operate_type: click
+      info: 點擊刊登物件
+
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+check:
+    - element_info: autoBrand
+      find_type: id
+      check: default_check
+      info: 驗證是否存在廠牌下拉菜單

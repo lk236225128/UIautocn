@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '百度一下' in 'bcd码_百度搜索'",
+      "children" : [ {
+        "name" : "test_two",
+        "uid" : "8f4da5e50bcafd58",
+        "parentUid" : "c615f62b11bd5ef424f3d8f0a344261b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1562124266533,
+          "stop" : 1562124267252,
+          "duration" : 719
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c615f62b11bd5ef424f3d8f0a344261b"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

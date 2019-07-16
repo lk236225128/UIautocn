@@ -1,0 +1,64 @@
+testinfo:
+    - id: test005
+      title: 特色說明
+      info: 特色說明
+testcase:
+    - element_info: "#myaccount > li > dl > dt > a:nth-child(1)"
+      find_type: css
+      operate_type: click
+      info: 點擊會員中心
+#    - element_info: "#memberhead > div.nmc-memberMenu.clearfix > a.nmc-mer-nav-link.selected"
+#      find_type: css
+#      operate_type: click
+#      info: 點擊我是賣家
+    - element_info: next-re
+      find_type: id
+      operate_type: click
+      info: 點擊以后提醒
+    - element_info: "#nmc-side-bar > div:nth-child(1) > ul > li:nth-child(3) > a"
+      find_type: css
+      operate_type: click
+      info: 點擊特色說明
+    - element_info: it-add-link
+      find_type: class_name
+      operate_type: click
+      info: 點擊新建模板
+    - element_info: title
+      find_type: id
+      operate_type: send_keys
+      msg: 這是標題
+      info: 輸入標題
+    - element_info: remark
+      find_type: id
+      operate_type: send_keys
+      msg: 這是備註
+      info: 輸入備注內容
+    - element_info: xhe0_iframe
+      find_type: id
+      operate_type: switch_to_frame
+      info: 切換IFrame
+    - element_info: editMode
+      find_type: class_name
+      operate_type: send_keys
+      msg: 這是內容
+      info: 輸入內容
+    - operate_type: switch_to_defaultframe
+      info: 切換回默認IFrame
+    - element_info: it-add-link
+      find_type: class_name
+      operate_type: click
+      info: 點擊提交
+    - element_info: "#main > div.it-list > div:nth-child(2) > div.it-list-opera > a:nth-child(2)"
+      find_type: css
+      operate_type: click
+      info: 點擊刪除模板
+    - operate_type: confirm_alert
+      info: 點擊彈窗的確認按鈕
+#    - element_info:
+#      find_type:
+#      operate_type:
+#      info:
+    - element_info: home-link
+      find_type: id
+      operate_type: click
+      info: 點擊返回8891首頁

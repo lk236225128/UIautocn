@@ -1,0 +1,127 @@
+{
+  "uid" : "8f4da5e50bcafd58",
+  "name" : "test_two",
+  "fullName" : "tests.test_case.test_pytest.TestClass#test_two",
+  "historyId" : "a4addfc73a872e810a368dd6739346da",
+  "time" : {
+    "start" : 1562124266533,
+    "stop" : 1562124267252,
+    "duration" : 719
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '百度一下' in 'bcd码_百度搜索'",
+  "statusTrace" : "self = <test_pytest.TestClass object at 0x1107a1d68>\ngetDriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"2aed6fba20033e3d1a8a16e30af6076a\")>\n\n    @allure.story('判断是否有234')\n    def test_two(self, getDriver):\n        input_box = getDriver.find_element_by_id(\"kw\")\n        input_box.clear()\n        input_box.send_keys(\"bcd\")\n        submit = getDriver.find_element_by_id(\"su\")\n        submit.click()\n        title = getDriver.title\n>       assert '百度一下' in title\nE       AssertionError: assert '百度一下' in 'bcd码_百度搜索'\n\ntests/test_case/test_pytest.py:23: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "getDriver",
+    "time" : {
+      "start" : 1562124262407,
+      "stop" : 1562124265618,
+      "duration" : 3211
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "百度feature"
+  }, {
+    "name" : "story",
+    "value" : "判断是否有234"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_pytest"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClass"
+  }, {
+    "name" : "host",
+    "value" : "luokaideMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "55342-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_case.test_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a46ab0fcd1e4e1e8",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '百度一下' in 'test1111_百度搜索'",
+      "time" : {
+        "start" : 1562124008981,
+        "stop" : 1562124009597,
+        "duration" : 616
+      }
+    }, {
+      "uid" : "87bf4c41039f1cc4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562123863532,
+        "stop" : 1562123863813,
+        "duration" : 281
+      }
+    }, {
+      "uid" : "9791996cbd506c31",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '百度一下' in 'test1111_百度搜索'",
+      "time" : {
+        "start" : 1562123535541,
+        "stop" : 1562123536021,
+        "duration" : 480
+      }
+    }, {
+      "uid" : "15a6fe586012c9d0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '百度一下' in 'test1111_百度搜索'",
+      "time" : {
+        "start" : 1562123066628,
+        "stop" : 1562123067092,
+        "duration" : 464
+      }
+    }, {
+      "uid" : "4214466ee2cfe206",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '百度一下' in 'bcd码_百度搜索'",
+      "time" : {
+        "start" : 1562116685450,
+        "stop" : 1562116686133,
+        "duration" : 683
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8f4da5e50bcafd58.json",
+  "parameterValues" : [ ]
+}

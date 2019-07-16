@@ -1,0 +1,77 @@
+{
+  "uid" : "4214466ee2cfe206",
+  "name" : "test_two",
+  "fullName" : "tests.test_case.test_pytest.TestClass#test_two",
+  "historyId" : "a4addfc73a872e810a368dd6739346da",
+  "time" : {
+    "start" : 1562116685450,
+    "stop" : 1562116686133,
+    "duration" : 683
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '百度一下' in 'bcd码_百度搜索'",
+  "statusTrace" : "self = <test_pytest.TestClass object at 0x108184588>\ngetDriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"6b16b41e0888a00612167892b799c324\")>\n\n    @allure.story('判断是否有123')\n    def test_two(self, getDriver):\n        input_box = getDriver.find_element_by_id(\"kw\")\n        input_box.clear()\n        input_box.send_keys(\"bcd\")\n        submit = getDriver.find_element_by_id(\"su\")\n        submit.click()\n        title = getDriver.title\n>       assert '百度一下' in title\nE       AssertionError: assert '百度一下' in 'bcd码_百度搜索'\n\ntests/test_case/test_pytest.py:23: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "getDriver",
+    "time" : {
+      "start" : 1562116681245,
+      "stop" : 1562116684539,
+      "duration" : 3294
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "判断是否有123"
+  }, {
+    "name" : "feature",
+    "value" : "百度feature"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_pytest"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClass"
+  }, {
+    "name" : "host",
+    "value" : "luokaideMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "54723-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_case.test_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4214466ee2cfe206.json",
+  "parameterValues" : [ ]
+}

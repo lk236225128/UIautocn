@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Wed Jul 03 11:24:26 CST 2019","Wed Jul 03 11:24:27 CST 2019","719","tests.test_case","test_pytest","TestClass","","","test_two",""
+"passed","Wed Jul 03 11:45:12 CST 2019","Wed Jul 03 11:45:17 CST 2019","5276","tests.test_case","test_pytest","TestClass","","","test_one",""
+"passed","Wed Jul 03 11:46:37 CST 2019","Wed Jul 03 11:46:41 CST 2019","4478","tests.test_case","test_pytest","TestClass","","","test_login",""
