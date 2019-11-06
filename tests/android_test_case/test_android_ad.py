@@ -22,11 +22,11 @@ from run import PATH
 class TestAdvertAndroid(object):
     @allure.story('顶部banner')
     def test_top_banner(self, getDriver):
-        # 关闭启动蒙版
         getDriver.find_element_by_id("com.addcn.car8891:id/close").click()
+
         result = []
 
-        # 截取banner图片，并加入list
+        # 截取banner轮播图片
         TEMP_FILE1 = PATH("./tmp/usedCar_screenshot/top_banner1.png")
         elementPath = "com.addcn.car8891:id/image"
         TEMP_FILE1 = utils.getElementImgHashById(getDriver, TEMP_FILE1, elementPath)
@@ -52,6 +52,8 @@ class TestAdvertAndroid(object):
         #對結果列表排序
         result.sort()
 
+        #获取预期结果列表
+        #TODO 改为请求DFP素材下载保存，再进行相似度对比
         usedCarBannerList = utils.getusedCarBanner()
 
         #斷言結果是否與預期一致

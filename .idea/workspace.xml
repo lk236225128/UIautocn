@@ -2,47 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b11fe37f-e035-42ae-ad80-8a14123b0670" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/android_test_case/test_android_ad.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/iOS_test_case/3.5.1.ipa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/iOS_test_case/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/iOS_test_case/test_iOS_ad.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/UIautocn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/UIautocn.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run_iOS.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Base/BaseAndroidPhone.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Base/BaseElementEnmu.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Base/BaseOperate.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Base/BaseYaml.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Base/WebBaseElementEnmu.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Base/WebBaseOperate.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Base/WebBaseYaml.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObject/Android/HomePage/BasePage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObject/Android/HomePage/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObject/Android/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObject/Pages.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObject/Web/HomePage/BasePage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObject/Web/HomePage/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObject/Web/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObject/WebPages.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yamls/Android/loginTest.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yamls/Web/Seller/Description.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yamls/Web/Seller/Login.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yamls/Web/Seller/Membership.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yamls/Web/Seller/Publish.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yamls/Web/Seller/PublishMotor.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yamls/Web/Seller/SellerPay.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yamls/Web/Seller/ShopManage.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yamls/Web/Seller/StoredAndInvoice.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yamls/Web/baidu.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yamls/Web/config.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirement.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirement.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObject/Android/HomePage/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run_android.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_android.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/android_test_case/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/android_test_case/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/android_test_case/test_android_contacts.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_case/conftest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_case/test_pytest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_case/test_pytest2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/android_test_case/test_android_ad.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/android_test_case/test_android_ad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/iOS_test_case/3.5.1.ipa" beforeDir="false" afterPath="$PROJECT_DIR$/tests/iOS_test_case/3.5.1.ipa" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/iOS_test_case/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/iOS_test_case/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/iOS_test_case/test_iOS_ad.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/iOS_test_case/test_iOS_ad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/usedCar_screenshot/top_banner1.png" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/usedCar_screenshot/top_banner1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/usedCar_screenshot/top_banner2.png" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/usedCar_screenshot/top_banner2.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,22 +57,22 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/iOS_test_case" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/tests/iOS_test_case" />
-      <recent name="$PROJECT_DIR$/tmp/screenshot" />
-      <recent name="$PROJECT_DIR$/tests/android_test_case" />
-      <recent name="$PROJECT_DIR$/Base" />
-      <recent name="$PROJECT_DIR$/Yamls/Android" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tests/android_test_case" />
       <recent name="$PROJECT_DIR$/Yamls/Web/Seller" />
       <recent name="$PROJECT_DIR$/../selenium_study/tests/test_case" />
       <recent name="$PROJECT_DIR$/../selenium_study" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/tests/iOS_test_case" />
+      <recent name="$PROJECT_DIR$/tmp/screenshot" />
+      <recent name="$PROJECT_DIR$/tests/android_test_case" />
+      <recent name="$PROJECT_DIR$/Base" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -436,7 +406,8 @@
       <workItem from="1572589047087" duration="9598000" />
       <workItem from="1572829080495" duration="1565000" />
       <workItem from="1572831752193" duration="23244000" />
-      <workItem from="1573001864103" duration="358000" />
+      <workItem from="1573001864103" duration="6223000" />
+      <workItem from="1573015377411" duration="377000" />
     </task>
     <servers />
   </component>
@@ -494,6 +465,6 @@
     <SUITE FILE_PATH="coverage/UIautocn$run_android.coverage" NAME="run_android Coverage Results" MODIFIED="1572598443897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/UIautocn$utils.coverage" NAME="utils Coverage Results" MODIFIED="1572924805952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Base" />
     <SUITE FILE_PATH="coverage/UIautocn$test_android_contacts.coverage" NAME="test_android_ad Coverage Results" MODIFIED="1572937369213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/UIautocn$test_iOS_ad.coverage" NAME="test_iOS_ad Coverage Results" MODIFIED="1572943593431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/UIautocn$test_iOS_ad.coverage" NAME="test_iOS_ad Coverage Results" MODIFIED="1573010680880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
   </component>
 </project>

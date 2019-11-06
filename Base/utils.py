@@ -82,14 +82,13 @@ def getusedCarBanner():
     hash5 = aHash(img5)
     hash6 = aHash(img6)
 
-    result=[hash1, hash2, hash5, hash6]
+    result = [hash1, hash2, hash5, hash6]
     result.sort()
 
     return result
 
 
 def getElementImgHashById(driver, imgPath, elementId):
-
     element = driver.find_element_by_id(elementId)
     location = element.location
     size = element.size
@@ -106,12 +105,13 @@ def getElementImgHashById(driver, imgPath, elementId):
     return hashValue
 
 
-def getElementImgHashByXpath(driver, imgPath, elementId):
+def getElementImgHashByXpath(driver, imgPath, elementPath):
+    element = driver.find_element_by_xpath(elementPath)
 
-    element = driver.find_element_by_xpath(elementId)
     location = element.location
     size = element.size
     box = (location["x"], location["y"], location["x"] + size["width"], location["y"] + size["height"])
+
     driver.get_screenshot_as_file(imgPath)
     # 截取图片
     image = Image.open(imgPath)
@@ -123,6 +123,23 @@ def getElementImgHashByXpath(driver, imgPath, elementId):
     print(hashValue)
     return hashValue
 
+def getElementImgHashByPredicate(driver, imgPath, elementValue):
+    element = driver.find_element_by_ios_predicate(elementValue)
+
+    location = element.location
+    size = element.size
+    box = (location["x"], location["y"], location["x"] + size["width"], location["y"] + size["height"])
+
+    driver.get_screenshot_as_file(imgPath)
+    # 截取图片
+    image = Image.open(imgPath)
+    newImage = image.crop(box)
+    newImage.save(imgPath)
+
+    targetImg = cv2.imread(imgPath)
+    hashValue = aHash(targetImg)
+    print(hashValue)
+    return hashValue
 
 
 if __name__ == '__main__':
